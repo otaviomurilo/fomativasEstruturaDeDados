@@ -1,2 +1,2 @@
-# POOrevis-o
+# POO revisão
 Atividade Diagnóstica - Resolução de Problemas Estruturados
