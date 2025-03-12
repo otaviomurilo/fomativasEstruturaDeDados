@@ -1,3 +1,5 @@
 # formativas
 Resolução de Problemas Estruturados  
-Otávio Murilo Ribas
+Otávio Murilo Ribas  
+Italo de Andrade  
+Theo Ravaglia
