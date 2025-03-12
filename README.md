@@ -1,3 +1,3 @@
-# POO revisão
-Atividade Diagnóstica - Resolução de Problemas Estruturados
+# formativas
+Resolução de Problemas Estruturados\n
 Otávio Murilo Ribas
