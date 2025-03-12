@@ -1,3 +1,3 @@
 # formativas
-Resolução de Problemas Estruturados\n
+Resolução de Problemas Estruturados  
 Otávio Murilo Ribas
