@@ -1,27 +1,33 @@
 public class Main {
     public static void main(String[] args) {
-        customArrayList<String> list = new customArrayList<>();
-    
-        list.add("A");
-        list.add("B");
-        list.add("C");
-        list.add("D");
-        System.out.println("Lista inicial: " + list);
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
 
-        System.out.println("elemento no índice 2: " + list.get(2));
+        for (int i = 1; i <= 10; i++) {
+            list.add(i - 1, i);
+        }
+        list.display();
+
+        System.out.println("\níndice 2: " + list.get(2)); 
+        list.set(2, 35); 
+        System.out.println("novo valor na posição 2: " + list.get(2));
+        list.display();
+
+        System.out.println("\nAdicionando novo valor ao índice 1:");
+        list.add(1, 25); 
+        list.display();
+
+        System.out.println("\nremovendo valor na posição 3:");
+        list.remove(3); 
+        list.display();
+
+        System.out.println("\nposição do valor 25: " + list.find(25)); 
+        System.out.println("\nlista cheia? " + list.isFull()); 
+        System.out.println("\ntamanho da lista: " + list.getSize());
+
+        System.out.println("\nlimpando lista..");
+        list.clear();
+        list.display(); 
         
-        list.set(1, "X");
-        System.out.println("set no índice 1: " + list);
-        System.out.println("índice do elemento C: " + list.indexOf("C"));
-        list.remove("C");
-        System.out.println("elemento C removido: " + list);
-
-        System.out.println("lista contém A: " + list.contains("A"));
-        System.out.println("lista contém Z: " + list.contains("Z"));
-        System.out.println("remover elemento Z: " + list.remove("Z")); //remover elemento não existente
-
-        list.add("E");
-        list.add(2, "H");
-        System.out.println("Lista final: " + list);
+        System.out.println("lista vazia? " + list.isEmpty()); 
     }
 }
